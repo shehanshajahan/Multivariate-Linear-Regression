@@ -6,27 +6,25 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1
-<br>
 Import pandas
 
 ### Step2
-<br>
 Import linear model from sklearn
 
 ### Step3
-<br>
 Read the file cars.csv
 
 ### Step4
-<br>
 Assign the values x and y as required
 
 ### Step5
-<br>
 Create the linear regression model and predict the output
 
 ## Program:
 ```
+#Program for implementation of Multivariate linear regression
+#Developed by: Shehan Shajahan
+#Register Number: 23008724
 import pandas as pd
 from sklearn import linear_model
 
@@ -41,7 +39,7 @@ print("Amount:",regr.predict([[3300,1300]]))
 ```
 ## Output:
 ### Insert your output
-![Screenshot 2024-01-02 212017](https://github.com/shehanshajahan/Multivariate-Linear-Regression/assets/139317389/ee75893d-46eb-411f-a48e-f4ae36135593)
-<br>
+![Screenshot 2024-01-02 212729](https://github.com/shehanshajahan/Multivariate-Linear-Regression/assets/139317389/6efca62f-0978-4c97-b32a-fe9f506f4d7f)
+
 ## Result
 Thus the multivariate linear regression is implemented and predicted the output using python program.
